@@ -188,13 +188,31 @@ void Quit()
 void stu_ui()
 {
     int x;
-    printf("""\n1.录入学生信息""");
+    printf("""
+            \n1.录入学生信息
+            \n2.输出学生信息
+            \n3.修改学生信息
+            \n4.统计学生信息
+            \n5.保存学生信息
+            \n6.查找学生信息
+          """);
     printf("请选择模式\n");
     scanf("%d",&x);
     switch (x)
     {
     case 1:
         add();
+    case 2:
+        print()
+    case 3:
+        Change()
+    case 4:
+        Tongji()
+    case 5:
+        Save()
+    case 6:
+        Find()
+    default:
         break;
     }
 }
@@ -203,3 +221,5 @@ int main()
     stu_ui();
     return 0;
 }
+
+
