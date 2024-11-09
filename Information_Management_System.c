@@ -11,6 +11,7 @@ struct
     char sex[20];
     int age;
     int grade;
+    int a : 1;
 } stu[X];
  
 void add()
