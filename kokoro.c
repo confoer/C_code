@@ -14,6 +14,6 @@ int main()
         printf("\n");
         Sleep(100);
     }
-    // printf("å¤©å¤©å¼€å¿ƒ");
+    printf("ÌìÌì¿ªÐÄ");
     return 0;
 }
